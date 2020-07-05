@@ -1,0 +1,99 @@
+.clients {
+  padding-top: 0;
+  padding-bottom: 94px;
+
+  &-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.client-title {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.client-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list > .link {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-list > .link:hover {
+  border: 1px solid $accentColor;
+  transition-duration: 250ms;
+  transition-timing-function: $timingFunction;
+}
+.link > .client {
+  fill: #afb1b8;
+}
+.clients-list > .link:hover.link > .client {
+  fill: $accentColor;
+  transition-duration: 250ms;
+  transition-timing-function: $timingFunction;
+}
+
+.icon-first {
+  width: 44.27px;
+  height: 49.23px;
+  margin-top: 20px;
+  margin-right: 72.64px;
+  margin-bottom: 20.77px;
+  margin-left: 63px;
+}
+
+.icon-second {
+  width: 40px;
+  height: 52px;
+  margin: 19px 65px;
+}
+
+.icon-third {
+  width: 41px;
+  height: 42.6px;
+  margin-top: 24px;
+  margin-right: 64px;
+  margin-bottom: 23.4px;
+  margin-left: 65px;
+}
+
+.icon-fourth {
+  width: 79.66px;
+  height: 42.02px;
+  margin-top: 24px;
+  margin-right: 45.34px;
+  margin-bottom: 23.98px;
+  margin-left: 45px;
+}
+
+.icon-fifth {
+  width: 59px;
+  height: 47px;
+  margin-top: 22px;
+  margin-right: 55px;
+  margin-bottom: 21px;
+  margin-left: 56px;
+}
+
+.icon-sixth {
+  width: 88.48px;
+  height: 45.44px;
+  margin-top: 22px;
+  margin-right: 40.52px;
+  margin-bottom: 22.56px;
+  margin-left: 46px;
+}

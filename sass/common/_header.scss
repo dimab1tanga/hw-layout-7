@@ -1,0 +1,97 @@
+.header {
+  background-color: $titleColor;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+  color: $accentColor;
+  font-family: Raleway, cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.studio {
+  color: $primaryColor;
+}
+
+.auth-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-nav .item + .item {
+  margin-left: 30px;
+}
+
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus {
+  color: $accentColor;
+  transition-duration: 250ms;
+  transition-timing-function: $timingFunction;
+}
+
+.contacts-list {
+  min-width: 130px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link-mail {
+  display: inline-flex;
+  align-items: center;
+  color: $secondaryColor;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-style: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-tel {
+  display: inline-flex;
+  align-items: center;
+  color: $secondaryColor;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-style: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.icon-mail {
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-tel {
+  width: 10px;
+  height: 14.94px;
+  margin-right: 10px;
+  fill: currentColor;
+}

@@ -1,0 +1,75 @@
+.work {
+  padding-bottom: 94px;
+}
+
+.work-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.working-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.work-list {
+  width: 370px;
+}
+
+.work-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activity-title {
+  font-family: roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.work-title-item {
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 27px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.work-list > h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.work-overlay {
+  position: relative;
+}
+
+.work-title-item {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-style: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
