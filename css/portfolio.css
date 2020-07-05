@@ -449,4 +449,35 @@ ul {
   background-color: #2196f3;
   border-radius: 2px;
 }
+
+.box-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 93px;
+  padding-bottom: 50px;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #f5f4fa;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #e5e5e5;
+}
 /*# sourceMappingURL=portfolio.css.map */

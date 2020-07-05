@@ -20,9 +20,10 @@
     <!--Шапка сайта-->
     <header class="header">
       <nav class="nav-container">
-        <a href="./index.html" class="logo"
-          >Web <span class="studio">Studio</span></a
-        >
+        <a href="./index.html" class="logo">
+          Web
+          <span class="studio">Studio</span>
+        </a>
         <ul class="site-nav">
           <li class="item"><a href="" class="link current">Студия</a></li>
           <li class="item">
@@ -75,7 +76,9 @@
                     id="name"
                     placeholder=" "
                   />
-                  <label class="form-label" for="name">Имя</label>
+                  <label class="form-label" for="name">
+                    <span class="text-form">Имя</span>
+                  </label>
                   <span>
                     <svg class="person-icon">
                       <use href="./images/modal-spt.svg#person-black"></use>
@@ -90,7 +93,9 @@
                     id="tel"
                     placeholder=" "
                   />
-                  <label class="form-label" for="tel">Телефон</label>
+                  <label class="form-label" for="tel">
+                    <span class="text-form">Телефон</span>
+                  </label>
                   <span>
                     <svg class="phone-icon">
                       <use href="./images/modal-spt.svg#phone-black"></use>
@@ -105,7 +110,9 @@
                     id="mail"
                     placeholder=" "
                   />
-                  <label class="form-label" for="mail">Почта</label>
+                  <label class="form-label" for="mail">
+                    <span class="text-form">Почта</span>
+                  </label>
                   <span>
                     <svg class="email-icon">
                       <use href="./images/modal-spt.svg#email-black"></use>
@@ -123,18 +130,20 @@
                   ></textarea>
                 </div>
                 <div class="form-policy">
-                  <label for="policy">
+                  <label class="policy-label" for="policy">
                     <input
                       class="checkbox"
                       type="checkbox"
                       name="policy"
                       id="policy"
                     /><span class="icon"></span>
-                    Соглашаюсь с рассылкой и принимаю
+                    <span class="accept"
+                      >Соглашаюсь с рассылкой и принимаю
+                    </span>
                     <a class="agreement-conditions" href=""
-                      >Условия договора</a
-                    ></label
-                  >
+                      >Условия договора
+                    </a>
+                  </label>
                 </div>
                 <button class="btn-submit" type="submit">Отправить</button>
                 <button class="btn-close" data-modal-close>

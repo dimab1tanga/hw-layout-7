@@ -539,10 +539,14 @@ ul {
 .modal-title {
   margin: 0;
   padding-bottom: 30px;
+  font-family: roboto;
+  font-style: normal;
   font-weight: 700;
-  font-style: 20px;
+  font-size: 20px;
   line-height: 1.15;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .form-field {
@@ -721,6 +725,11 @@ ul {
   fill: #212121;
 }
 
+.form-policy {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .checkbox {
   position: absolute;
   width: 1px;
@@ -748,6 +757,15 @@ ul {
   background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
+}
+
+.accept {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 1.71;
+  color: #757575;
 }
 
 .features {
